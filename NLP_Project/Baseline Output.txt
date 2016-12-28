@@ -1,0 +1,428 @@
+/usr/bin/python3.5 /home/siddarth/PycharmProjects/NlpProject_Submission/baseline.py
+['donald trump', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['texas', ' travel']
+Actual Class :  travel
+Obtained Class : travel
+['apple', ' technology']
+Actual Class :  technology
+Obtained Class : travel
+['android (Operating System)', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['iphone', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['adobe photoshop', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['television', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['camera', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['google', ' business']
+Actual Class :  business
+Obtained Class : technology
+['toyota', ' business']
+Actual Class :  business
+Obtained Class : technology
+['laptop', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['steve jobs', ' business']
+Actual Class :  business
+Obtained Class : business
+['barack obama', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['new york city', ' travel']
+Actual Class :  travel
+Obtained Class : technology
+['bernie sanders', ' politics']
+Actual Class :  politics
+Obtained Class : politics
+['Canon Inc.', ' business']
+Actual Class :  business
+Obtained Class : business
+['bmw', ' business']
+Actual Class :  business
+Obtained Class : technology
+['audi', ' business']
+Actual Class :  business
+Obtained Class : technology
+['chennai', ' travel']
+Actual Class :  travel
+Obtained Class : technology
+['paris', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['dallas', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['titicaca', ' travel']
+Actual Class :  travel
+Obtained Class : travel
+['nile', ' travel']
+Actual Class :  travel
+Obtained Class : travel
+['danube', ' travel']
+Actual Class :  travel
+Obtained Class : travel
+['seine', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['oslo', ' travel']
+Actual Class :  travel
+Obtained Class : travel
+['spotify', ' business']
+Actual Class :  business
+Obtained Class : business
+['china', ' travel']
+Actual Class :  travel
+Obtained Class : technology
+['japan', ' travel']
+Actual Class :  travel
+Obtained Class : technology
+['new zealand', ' travel']
+Actual Class :  travel
+Obtained Class : travel
+['volkswagen', ' business']
+Actual Class :  business
+Obtained Class : business
+['ibm', ' business']
+Actual Class :  business
+Obtained Class : business
+['singapore', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['microsoft', ' business']
+Actual Class :  business
+Obtained Class : business
+['zillow', ' business']
+Actual Class :  business
+Obtained Class : business
+['san francisco', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['sacramento', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['las vegas', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['rockies', ' travel']
+Actual Class :  travel
+Obtained Class : travel
+['david cameron', ' politics']
+Actual Class :  politics
+Obtained Class : politics
+['brexit', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['jayalalithaa', ' politics']
+Actual Class :  politics
+Obtained Class : politics
+['narendra modi', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['hillary clinton', ' politics']
+Actual Class :  politics
+Obtained Class : politics
+['python (programming language)', ' technology']
+Actual Class :  technology
+Obtained Class : business
+['java language', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['bill gates', ' business']
+Actual Class :  business
+Obtained Class : business
+['warren buffet', ' business']
+Actual Class :  business
+Obtained Class : business
+['nasdaq', ' business']
+Actual Class :  business
+Obtained Class : business
+['korea', ' travel']
+Actual Class :  travel
+Obtained Class : technology
+['tim cook', ' business']
+Actual Class :  business
+Obtained Class : business
+['flipkart', ' business']
+Actual Class :  business
+Obtained Class : business
+['uber (company)', ' business']
+Actual Class :  business
+Obtained Class : business
+['africa', ' travel']
+Actual Class :  travel
+Obtained Class : politics
+['usa', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['russia', ' travel']
+Actual Class :  travel
+Obtained Class : technology
+['nexus 6p', ' technology']
+Actual Class :  technology
+Obtained Class : business
+['chicago', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['cincinatti', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['sacramento', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['sony', ' technology']
+Actual Class :  technology
+Obtained Class : business
+['samsung', ' technology']
+Actual Class :  technology
+Obtained Class : business
+['laptop', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['macintosh', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['Near field communication', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['bluetooth', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['lyft', ' business']
+Actual Class :  business
+Obtained Class : business
+['mac os', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['wi-fi', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['las vegas', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['abraham lincoln', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['nigel farage', ' politics']
+Actual Class :  politics
+Obtained Class : politics
+['headphones', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['television', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['radio', ' technology']
+Actual Class :  technology
+Obtained Class : travel
+['benjamin franklin', ' politics']
+Actual Class :  politics
+Obtained Class : politics
+['franklin roosevelt', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['manmohan singh', ' politics']
+Actual Class :  politics
+Obtained Class : technology
+['boris johnson', ' politics']
+Actual Class :  politics
+Obtained Class : politics
+['michael bloomberg', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['ubuntu (operating system)', ' technology']
+Actual Class :  technology
+Obtained Class : business
+['nigeria', ' travel']
+Actual Class :  travel
+Obtained Class : technology
+['ruby on rails', ' technology']
+Actual Class :  technology
+Obtained Class : business
+['barbados', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['visual c', ' technology']
+Actual Class :  technology
+Obtained Class : business
+['amazon.com', ' business']
+Actual Class :  business
+Obtained Class : business
+['jawaharlal nehru', ' politics']
+Actual Class :  politics
+Obtained Class : politics
+['mahatma gandhi', ' politics']
+Actual Class :  politics
+Obtained Class : politics
+['george washington', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['al gore', ' politics']
+Actual Class :  politics
+Obtained Class : technology
+['taiwan', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['mexico', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['costa rica', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['twitter', ' business']
+Actual Class :  business
+Obtained Class : business
+['morgan stanley', ' business']
+Actual Class :  business
+Obtained Class : business
+['stock', ' business']
+Actual Class :  business
+Obtained Class : business
+['share (finance)', ' business']
+Actual Class :  business
+Obtained Class : business
+['congo basin', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['venezula', ' travel']
+Actual Class :  travel
+Obtained Class : travel
+['mexican stock exchange', ' business']
+Actual Class :  business
+Obtained Class : business
+['office', ' business']
+Actual Class :  business
+Obtained Class : business
+['mongolia', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['hilton worldwide', ' business']
+Actual Class :  business
+Obtained Class : travel
+['david koch', ' politics']
+Actual Class :  politics
+Obtained Class : technology
+['rick scott', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['wells fargo', ' business']
+Actual Class :  business
+Obtained Class : business
+['chase bank', ' business']
+Actual Class :  business
+Obtained Class : business
+['siberia', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['shimla', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['radio-frequency identification', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['infrared', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['x-ray', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['pebble (watch)', ' business']
+Actual Class :  business
+Obtained Class : technology
+['Android Nougat', ' technology']
+Actual Class :  technology
+Obtained Class : business
+['taipei', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['lte (telecommunication)', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['wikipedia', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['mike pence', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['jimmy carter', ' politics']
+Actual Class :  politics
+Obtained Class : business
+['seagate technology', ' business']
+Actual Class :  business
+Obtained Class : technology
+['safeway inc', ' business']
+Actual Class :  business
+Obtained Class : business
+['periscope (app)', ' technology']
+Actual Class :  technology
+Obtained Class : travel
+['meerkat (app)', ' technology']
+Actual Class :  technology
+Obtained Class : business
+['facebook', ' business']
+Actual Class :  business
+Obtained Class : technology
+['whatsapp', ' business']
+Actual Class :  business
+Obtained Class : business
+['skype', ' business']
+Actual Class :  business
+Obtained Class : business
+['starbucks', ' business']
+Actual Class :  business
+Obtained Class : business
+['malaysia', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['java', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['bali', ' travel']
+Actual Class :  travel
+Obtained Class : travel
+['bill clinton', ' politics']
+Actual Class :  politics
+Obtained Class : travel
+['amsterdam', ' travel']
+Actual Class :  travel
+Obtained Class : business
+['instagram', ' technology']
+Actual Class :  technology
+Obtained Class : business
+['motorola', ' business']
+Actual Class :  business
+Obtained Class : business
+['lg corporation', ' business']
+Actual Class :  business
+Obtained Class : business
+['laser', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['3d printing', ' technology']
+Actual Class :  technology
+Obtained Class : technology
+['shashi tharoor', ' politics']
+Actual Class :  politics
+Obtained Class : travel
+['kerala', ' travel']
+Actual Class :  travel
+Obtained Class : travel
+['chennai', ' travel']
+Actual Class :  travel
+Obtained Class : technology
+['bangalore', ' travel']
+Actual Class :  travel
+Obtained Class : technology
+Accuracy of baseline : 49.645390070921984%
+
+Process finished with exit code 0
+

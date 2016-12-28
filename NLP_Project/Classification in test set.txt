@@ -1,0 +1,182 @@
+Topic : nigeria
+Actual : travel
+Classified :  travel
+Topic : ruby on rails
+Actual : technology
+Classified :  technology
+Topic : barbados
+Actual : travel
+Classified :  travel
+Topic : visual c
+Actual : technology
+Classified :  technology
+Topic : amazon.com
+Actual : business
+Classified :  business
+Topic : jawaharlal nehru
+Actual : politics
+Classified :  politics
+Topic : mahatma gandhi
+Actual : politics
+Classified :  travel
+Topic : george washington
+Actual : politics
+Classified :  politics
+Topic : al gore
+Actual : politics
+Classified :  politics
+Topic : taiwan
+Actual : travel
+Classified :  travel
+Topic : mexico
+Actual : travel
+Classified :  travel
+Topic : costa rica
+Actual : travel
+Classified :  travel
+Topic : twitter
+Actual : business
+Classified :  technology
+Topic : morgan stanley
+Actual : business
+Classified :  business
+Topic : stock
+Actual : business
+Classified :  business
+Topic : share (finance)
+Actual : business
+Classified :  business
+Topic : congo basin
+Actual : travel
+Classified :  travel
+Topic : venezula
+Actual : travel
+Classified :  travel
+Topic : mexican stock exchange
+Actual : business
+Classified :  travel
+Topic : office
+Actual : business
+Classified :  technology
+Topic : mongolia
+Actual : travel
+Classified :  travel
+Topic : hilton worldwide
+Actual : business
+Classified :  business
+Topic : david koch
+Actual : politics
+Classified :  business
+Topic : rick scott
+Actual : politics
+Classified :  politics
+Topic : wells fargo
+Actual : business
+Classified :  business
+Topic : chase bank
+Actual : business
+Classified :  business
+Topic : siberia
+Actual : travel
+Classified :  travel
+Topic : shimla
+Actual : travel
+Classified :  travel
+Topic : radio-frequency identification
+Actual : technology
+Classified :  technology
+Topic : infrared
+Actual : technology
+Classified :  technology
+Topic : x-ray
+Actual : technology
+Classified :  technology
+Topic : pebble (watch)
+Actual : business
+Classified :  technology
+Topic : Android Nougat
+Actual : technology
+Classified :  technology
+Topic : taipei
+Actual : travel
+Classified :  travel
+Topic : lte (telecommunication)
+Actual : technology
+Classified :  technology
+Topic : wikipedia
+Actual : technology
+Classified :  business
+Topic : mike pence
+Actual : politics
+Classified :  politics
+Topic : jimmy carter
+Actual : politics
+Classified :  politics
+Topic : seagate technology
+Actual : business
+Classified :  business
+Topic : safeway inc
+Actual : business
+Classified :  business
+Topic : periscope (app)
+Actual : technology
+Classified :  technology
+Topic : meerkat (app)
+Actual : technology
+Classified :  technology
+Topic : facebook
+Actual : business
+Classified :  business
+Topic : whatsapp
+Actual : business
+Classified :  technology
+Topic : skype
+Actual : business
+Classified :  technology
+Topic : starbucks
+Actual : business
+Classified :  business
+Topic : malaysia
+Actual : travel
+Classified :  travel
+Topic : java
+Actual : travel
+Classified :  travel
+Topic : bali
+Actual : travel
+Classified :  travel
+Topic : bill clinton
+Actual : politics
+Classified :  politics
+Topic : amsterdam
+Actual : travel
+Classified :  travel
+Topic : instagram
+Actual : technology
+Classified :  technology
+Topic : motorola
+Actual : business
+Classified :  technology
+Topic : lg corporation
+Actual : business
+Classified :  technology
+Topic : laser
+Actual : technology
+Classified :  technology
+Topic : 3d printing
+Actual : technology
+Classified :  technology
+Topic : shashi tharoor
+Actual : politics
+Classified :  travel
+Topic : kerala
+Actual : travel
+Classified :  travel
+Topic : chennai
+Actual : travel
+Classified :  travel
+Topic : bangalore
+Actual : travel
+Classified :  travel
+
+Accuracy : 80.0

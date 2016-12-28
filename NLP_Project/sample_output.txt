@@ -1,0 +1,36 @@
+Topic : Morgan Stanley
+Actual Class : business
+Data : ['morgan stanley', ' business']
+
+After tokenizing and removing stopwords : 
+
+['morgan_stanley', 'nyse', 'american', 'multinational', 'financial', 'services', 'corporation', 'headquartered', 'morgan_stanley', 'building', 'midtown', 'manhattan', 'new', 'york', 'city', 'morgan_stanley', 'operates', 'countries', '1300', 'offices', '60,000', 'employees', 'according', 'scorpio', 'partnership', 'global', 'private', 'banking', 'benchmark', 'company', '1.454', 'trillion', 'assets', 'management', 'aum', '2014', 'increase', '17.5', '2013', 'figure', 'corporation', 'formed', 'j.p.', 'morgan', 'co.', 'partners', 'henry', 'morgan', 'grandson', 'j.p.', 'morgan', 'harold', 'stanley', 'others', 'came', 'existence', 'september', '1935', 'response', 'glass-steagall', 'act', 'required', 'splitting', 'commercial', 'investment', 'banking', 'businesses', 'first', 'year', 'company', 'operated', 'market', 'share', '1.1', 'billion', 'public', 'offerings', 'private', 'placements', 'main', 'areas', 'business', 'firm', 'today', 'global', 'wealth', 'management', 'institutional', 'securities', 'investment', 'management']
+
+After Lemmatization :
+
+['morgan_stanley', 'nyse', 'american', 'multinational', 'financial', 'service', 'corporation', 'headquartered', 'morgan_stanley', 'building', 'midtown', 'manhattan', 'new', 'york', 'city', 'morgan_stanley', 'operates', 'country', '1300', 'office', '60,000', 'employee', 'according', 'scorpio', 'partnership', 'global', 'private', 'banking', 'benchmark', 'company', '1.454', 'trillion', 'asset', 'management', 'aum', '2014', 'increase', '17.5', '2013', 'figure', 'corporation', 'formed', 'j.p.', 'morgan', 'co.', 'partner', 'henry', 'morgan', 'grandson', 'j.p.', 'morgan', 'harold', 'stanley', 'others', 'came', 'existence', 'september', '1935', 'response', 'glass-steagall', 'act', 'required', 'splitting', 'commercial', 'investment', 'banking', 'business', 'first', 'year', 'company', 'operated', 'market', 'share', '1.1', 'billion', 'public', 'offering', 'private', 'placement', 'main', 'area', 'business', 'firm', 'today', 'global', 'wealth', 'management', 'institutional', 'security', 'investment', 'management']
+
+After POS Tagging
+
+[('morgan_stanley', 'NN'), ('nyse', 'JJ'), ('american', 'JJ'), ('multinational', 'JJ'), ('financial', 'JJ'), ('service', 'NN'), ('corporation', 'NN'), ('headquartered', 'VBD'), ('morgan_stanley', 'NN'), ('building', 'NN'), ('midtown', 'JJ'), ('manhattan', 'JJ'), ('new', 'JJ'), ('york', 'NN'), ('city', 'NN'), ('morgan_stanley', 'NN'), ('operates', 'VBZ'), ('country', 'NN'), ('1300', 'CD'), ('office', 'NN'), ('60,000', 'CD'), ('employee', 'NN'), ('according', 'VBG'), ('scorpio', 'JJ'), ('partnership', 'NN'), ('global', 'JJ'), ('private', 'JJ'), ('banking', 'NN'), ('benchmark', 'NN'), ('company', 'NN'), ('1.454', 'CD'), ('trillion', 'CD'), ('asset', 'NN'), ('management', 'NN'), ('aum', 'NN'), ('2014', 'CD'), ('increase', 'NN'), ('17.5', 'CD'), ('2013', 'CD'), ('figure', 'NN'), ('corporation', 'NN'), ('formed', 'VBD'), ('j.p.', 'NNP'), ('morgan', 'NNP'), ('co.', 'VBD'), ('partner', 'NN'), ('henry', 'NN'), ('morgan', 'NNP'), ('grandson', 'NN'), ('j.p.', 'NN'), ('morgan', 'NN'), ('harold', 'VBD'), ('stanley', 'JJ'), ('others', 'NNS'), ('came', 'VBD'), ('existence', 'RB'), ('september', 'JJ'), ('1935', 'CD'), ('response', 'NN'), ('glass-steagall', 'JJ'), ('act', 'NN'), ('required', 'VBN'), ('splitting', 'VBG'), ('commercial', 'JJ'), ('investment', 'NN'), ('banking', 'NN'), ('business', 'NN'), ('first', 'JJ'), ('year', 'NN'), ('company', 'NN'), ('operated', 'VBD'), ('market', 'NN'), ('share', 'NN'), ('1.1', 'CD'), ('billion', 'CD'), ('public', 'JJ'), ('offering', 'VBG'), ('private', 'JJ'), ('placement', 'NN'), ('main', 'JJ'), ('area', 'NN'), ('business', 'NN'), ('firm', 'NN'), ('today', 'NN'), ('global', 'JJ'), ('wealth', 'NN'), ('management', 'NN'), ('institutional', 'JJ'), ('security', 'NN'), ('investment', 'NN'), ('management', 'NN')]
+
+After Chunking (Shallow Parsing) :
+
+['morgan_stanley', 'service', 'corporation', 'morgan_stanley', 'building', 'york', 'city', 'morgan_stanley', 'country', 'office', 'employee', 'partnership', 'banking', 'benchmark', 'company', 'asset', 'management', 'aum', 'increase', 'figure', 'corporation', 'j.p.', 'morgan', 'partner', 'henry', 'morgan', 'grandson', 'j.p.', 'morgan', 'response', 'act', 'investment', 'banking', 'business', 'year', 'company', 'market', 'share', 'placement', 'area', 'business', 'firm', 'today', 'wealth', 'management', 'security', 'investment', 'management']
+
+Topic has been found in hypernym! business
+
+After Hypernym and Synset matching :
+['morgan_stanley', 'service', 'corporation', 'morgan_stanley', 'building', 'york', 'city', 'morgan_stanley', 'country', 'office', 'employee', 'partnership', 'banking', 'benchmark', 'company', 'asset', 'management', 'aum', 'increase', 'figure', 'corporation', 'j.p.', 'morgan', 'partner', 'henry', 'morgan', 'grandson', 'j.p.', 'morgan', 'response', 'act', 'investment', 'banking', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'year', 'company', 'market', 'share', 'placement', 'area', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'firm', 'today', 'wealth', 'management', 'security', 'investment', 'management']
+
+Topic has been found in meronym! business
+
+After Meronym matching : 
+
+['morgan_stanley', 'service', 'corporation', 'morgan_stanley', 'building', 'york', 'city', 'morgan_stanley', 'country', 'office', 'employee', 'partnership', 'banking', 'benchmark', 'company', 'asset', 'management', 'aum', 'increase', 'figure', 'corporation', 'j.p.', 'morgan', 'partner', 'henry', 'morgan', 'grandson', 'j.p.', 'morgan', 'response', 'act', 'investment', 'banking', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'year', 'company', 'market', 'share', 'placement', 'area', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'business', 'firm', 'today', 'wealth', 'management', 'security', 'investment', 'management']
+
+
+Topic : morgan stanley
+Actual : business
+Classified :  business
+
