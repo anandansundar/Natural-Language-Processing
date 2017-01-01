@@ -1,3 +1,5 @@
+This project does text classification based on the wikipedia content.
+
 Please make sure that we have a stable internet connection.
 
 Put all the files which is extracted in the same directory. 
