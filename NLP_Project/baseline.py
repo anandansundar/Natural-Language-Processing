@@ -1,6 +1,6 @@
 import wikipedia
 import csv
-from nltk.metrics import *
+from nltk.metrics import accuracy
 
 reader = csv.reader(open('Topic_set_all.csv', 'r'))
 
@@ -27,11 +27,11 @@ for row in reader:
     if max_count == business_count:
         class_atr = "business"
 
-    print("Actual Class : " +category)
-    print("Obtained Class : " +class_atr)
+    print("Actual Class : " + category)
+    print("Obtained Class : " + class_atr)
     actual_class.append(category.strip())
     obtained_class.append(class_atr)
 
 accuracy_baseline = accuracy(obtained_class, actual_class) * 100
 
-print('Accuracy of baseline : ' + accuracy_baseline.__str__() + "%")
+print('Accuracy of baseline : ' + str(accuracy_baseline) + "%")
