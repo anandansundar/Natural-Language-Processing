@@ -1,5 +1,4 @@
 import wikipedia
-from textblob.classifiers import NaiveBayesClassifier
 import csv
 import nltk
 from nltk.tokenize import MWETokenizer, word_tokenize
@@ -15,16 +14,18 @@ title_name = []
 reader = csv.reader(open('Topic_set_test.csv', 'r'))
 tokenizer = MWETokenizer()
 
-def equating(text):
-    if "technology" in text:
-        text = "technology"
-    if "business" in text:
-        text = "business"
-    if "politics" in text:
-        text = "politics"
-    if "travel" in text:
-        text = "travel"
-    return text
+
+def equating(content):
+    if "technology" in content:
+        content = "technology"
+    if "business" in content:
+        content = "business"
+    if "politics" in content:
+        content = "politics"
+    if "travel" in content:
+        content = "travel"
+    return content
+
 
 for row in reader:
     print("Data : " + str(row))
@@ -151,6 +152,6 @@ for test_sample in test:
     print("Topic : " + title_name[i])
     print("Actual : " + str(test_sample[1]).strip())
     print("Classified : " + classified)
-    i+=1
+    i += 1
 
 print("Accuracy : " + str(classifier.accuracy(test) * 100))

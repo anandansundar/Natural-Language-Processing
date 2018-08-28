@@ -15,7 +15,6 @@ train = []
 reader = csv.reader(open('Topic_set_train.csv', 'r'))
 tokenizer = MWETokenizer()
 
-
 for row in reader:
     print("Data : " + str(row))
     title, category = row
@@ -88,9 +87,6 @@ for row in reader:
                         hypernym_parsed_set.append(text)
         hypernym_parsed_set.append(text)
 
-    #print("After Hypernym matching:")
-    #print(hypernym_parsed_set)
-
     for text in hypernym_parsed_set:
         for synset in wordnet.synsets(text, pos='n'):
             word = synset.name()
@@ -120,9 +116,8 @@ for row in reader:
     train_example = (text_content, category)
     train.append(train_example)
 
-
 print("Building Model")
 classifier = NaiveBayesClassifier(train)
-save_classifier = open("naivebayes_improved4.pickle","wb")
+save_classifier = open("naivebayes_improved4.pickle", "wb")
 pickle.dump(classifier, save_classifier)
 save_classifier.close()
